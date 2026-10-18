@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Airbnb | Vacation rentals, cabins, beach houses, &amp; more</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="container top">
+ <a class="logo" href="index.html"><svg viewBox="0 0 32 32"><path d="M16 2c-2 0-3 1.5-4 3.5L4 22c-1.5 3 .5 6 3.5 6 2.5 0 5-2 8.5-6 3.5 4 6 6 8.5 6 3 0 5-3 3.5-6L20 5.5C19 3.5 18 2 16 2z"/><circle cx="16" cy="19" r="4"/></svg>airbnb</a>
+ <nav class="tabs"><a class="tab active" href="#"><span>🌍</span>All</a><a class="tab" href="#"><span>🏠</span>Homes</a><a class="tab" href="#"><span>🎈</span>Experiences</a><a class="tab" href="#"><span>🛎️</span>Services</a></nav>
+ <div><button class="circle" aria-label="language">🌐</button><button class="circle" aria-label="menu">☰</button></div>
+</div>
+<div class="search-wrap"><div class="search">
+ <div class="field"><b>Where</b><input placeholder="Search destinations"></div><div class="sep"></div>
+ <div class="field"><b>When</b><input placeholder="Add dates"></div><div class="sep"></div>
+ <div class="field"><b>Who</b><input placeholder="Add guests"></div>
+ <button class="go" aria-label="search">🔍</button></div></div></header>
+<main class="container">
+ <section><div class="sec-head"><h2>Popular homes in Dubai <i>→</i></h2>
+  <div class="arrows"><button data-row="dubai" data-scroll="-1">‹</button><button data-row="dubai" data-scroll="1">›</button></div></div>
+  <div class="row" id="dubai"></div></section>
+ <section><div class="sec-head"><h2>Great hotels for your next trip <i>→</i></h2>
+  <div class="arrows"><button data-row="hotels" data-scroll="-1">‹</button><button data-row="hotels" data-scroll="1">›</button></div></div>
+  <p class="sub">Plus, get Airbnb credit when you stay at a featured hotel.</p>
+  <div class="row" id="hotels"></div></section>
+</main>
+<div class="fees" id="fees">🏷️ Prices include all fees <button onclick="fees.remove()">✕</button></div>
+<footer><div class="container">© 2026 Airbnb Clone · Educational project</div></footer>
+<script src="script.js"></script></body></html>
